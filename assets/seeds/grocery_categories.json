@@ -1,0 +1,31 @@
+[
+  {
+    "id": "gcat_fruits",
+    "title": "Fresh Fruits",
+    "description": "Seasonal farm-picked fruits",
+    "icon": "assets/icons/icon_fruits.svg",
+    "accent": "#FF8A5B"
+  },
+  {
+    "id": "gcat_veggies",
+    "title": "Organic Veggies",
+    "description": "Leafy greens and staples",
+    "icon": "assets/icons/icon_veggies.svg",
+    "accent": "#4CAF50"
+  },
+  {
+    "id": "gcat_dairy",
+    "title": "Dairy & Eggs",
+    "description": "Milk, cheese, paneer, eggs",
+    "icon": "assets/icons/icon_dairy.svg",
+    "accent": "#FFC947"
+  },
+  {
+    "id": "gcat_daily",
+    "title": "Daily Essentials",
+    "description": "Atta, oils, masalas",
+    "icon": "assets/icons/icon_basket.svg",
+    "accent": "#8C7AE6"
+  }
+]
+

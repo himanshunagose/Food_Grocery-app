@@ -1,0 +1,13 @@
+<svg width="320" height="180" viewBox="0 0 320 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="spice" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF5F6D"/>
+      <stop offset="100%" stop-color="#FFC371"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="180" rx="28" fill="url(#spice)"/>
+  <path d="M40 120c10-36 44-64 80-72s92 0 120 32c18 20 12 36 0 52H40z" fill="rgba(255,255,255,.28)"/>
+  <text x="40" y="70" fill="#fff" font-size="36" font-family="Arial" font-weight="700">Spice Route</text>
+  <text x="40" y="100" fill="#fff" font-size="18" font-family="Arial">Slow cooked grills & curries</text>
+</svg>
+

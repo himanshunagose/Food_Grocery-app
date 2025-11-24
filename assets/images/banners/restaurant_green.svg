@@ -1,0 +1,13 @@
+<svg width="320" height="180" viewBox="0 0 320 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="green" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#51D1B6"/>
+      <stop offset="100%" stop-color="#82EECF"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="180" rx="28" fill="url(#green)"/>
+  <path d="M36 124c12-28 40-54 76-58s84 12 110 40c14 16 10 28 2 40H36z" fill="rgba(255,255,255,.2)"/>
+  <text x="36" y="72" fill="#0B3D2E" font-size="34" font-family="Arial" font-weight="700">Green Leaf</text>
+  <text x="36" y="102" fill="#0B3D2E" font-size="18" font-family="Arial">Salads • Bowls • Juices</text>
+</svg>
+

@@ -1,0 +1,33 @@
+[
+  {
+    "code": "WELCOME80",
+    "title": "Flat ₹80 off",
+    "description": "Applicable on orders above ₹499 for first-time users.",
+    "type": "flat",
+    "value": 80,
+    "minOrder": 499,
+    "domains": ["restaurant", "grocery"],
+    "expiry": "2025-12-31"
+  },
+  {
+    "code": "VEGGIE15",
+    "title": "15% off greens",
+    "description": "Valid on organic veggie basket orders.",
+    "type": "percent",
+    "value": 15,
+    "minOrder": 299,
+    "domains": ["grocery"],
+    "expiry": "2025-07-31"
+  },
+  {
+    "code": "LUNCHTIME",
+    "title": "₹120 off lunch",
+    "description": "12-4 PM restaurant orders above ₹699.",
+    "type": "flat",
+    "value": 120,
+    "minOrder": 699,
+    "domains": ["restaurant"],
+    "expiry": "2025-08-30"
+  }
+]
+

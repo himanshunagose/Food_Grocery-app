@@ -1,0 +1,13 @@
+<svg width="320" height="180" viewBox="0 0 320 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="momo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FD746C"/>
+      <stop offset="100%" stop-color="#FF9068"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="180" rx="28" fill="url(#momo)"/>
+  <path d="M60 120c8-32 30-60 70-70s90 4 120 34c18 18 18 30 8 46H60z" fill="rgba(255,255,255,.25)"/>
+  <text x="60" y="70" fill="#fff" font-size="34" font-family="Arial" font-weight="700">Momo Sutra</text>
+  <text x="60" y="102" fill="#fff" font-size="18" font-family="Arial">Steamed • Tandoori • Fusion</text>
+</svg>
+

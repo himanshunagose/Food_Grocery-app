@@ -1,0 +1,177 @@
+[
+  {
+    "id": "res_spice_route",
+    "name": "Spice Route Kitchen",
+    "description": "Slow-cooked curries, tandoor classics, and modern Indian plates.",
+    "tags": ["North Indian", "Tandoor", "Chinese"],
+    "rating": 4.7,
+    "ratingCount": 1248,
+    "etaMinutes": 28,
+    "distanceKm": 3.2,
+    "isPureVeg": false,
+    "image": "assets/images/banners/restaurant_spice.svg",
+    "priceLevel": 2,
+    "featured": true,
+    "menu": [
+      {
+        "category": "Starters",
+        "items": [
+          {
+            "id": "item_paneer_tikka",
+            "name": "Paneer Tikka Skewers",
+            "description": "Charred cottage cheese with mint chutney.",
+            "isVeg": true,
+            "basePrice": 260,
+            "addons": [
+              {"name": "Extra Mint Dip", "price": 20},
+              {"name": "Cheese Stuffing", "price": 40}
+            ]
+          },
+          {
+            "id": "item_chicken_malak",
+            "name": "Malai Chicken Tikka",
+            "description": "Creamy marinade, grilled to perfection.",
+            "isVeg": false,
+            "basePrice": 320,
+            "addons": [
+              {"name": "Extra Malai Sauce", "price": 30}
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Curries",
+        "items": [
+          {
+            "id": "item_dal_makhani",
+            "name": "Dal Makhani",
+            "description": "24-hour slow cooked black lentils.",
+            "isVeg": true,
+            "basePrice": 240,
+            "spiceLevels": ["Mild", "Medium", "Fiery"]
+          },
+          {
+            "id": "item_butter_chicken",
+            "name": "Old Delhi Butter Chicken",
+            "description": "Smoky tomato gravy, cream finish.",
+            "isVeg": false,
+            "basePrice": 340,
+            "spiceLevels": ["Mild", "Medium"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "res_green_leaf",
+    "name": "Green Leaf Salads & Bowls",
+    "description": "Seasonal salads, cold-pressed juices, healthy bowls.",
+    "tags": ["Healthy", "Vegan Options", "Smoothies"],
+    "rating": 4.5,
+    "ratingCount": 842,
+    "etaMinutes": 22,
+    "distanceKm": 2.4,
+    "isPureVeg": true,
+    "image": "assets/images/banners/restaurant_green.svg",
+    "priceLevel": 1,
+    "featured": false,
+    "menu": [
+      {
+        "category": "Signature Bowls",
+        "items": [
+          {
+            "id": "item_quinoa_bowl",
+            "name": "Protein Quinoa Bowl",
+            "description": "Quinoa, avocado, micro greens, citrus dressing.",
+            "isVeg": true,
+            "basePrice": 280,
+            "sizeOptions": [
+              {"label": "Regular", "multiplier": 1},
+              {"label": "Large", "multiplier": 1.4}
+            ]
+          },
+          {
+            "id": "item_soba_salad",
+            "name": "Soba Crunch Salad",
+            "description": "Buckwheat noodles, roasted veggies, sesame crunch.",
+            "isVeg": true,
+            "basePrice": 260,
+            "sizeOptions": [
+              {"label": "Regular", "multiplier": 1},
+              {"label": "Meal", "multiplier": 1.3}
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Cold Pressed Juices",
+        "items": [
+          {
+            "id": "item_green_detox",
+            "name": "Green Detox",
+            "description": "Kale, cucumber, green apple, lemon.",
+            "isVeg": true,
+            "basePrice": 160,
+            "sizeOptions": [
+              {"label": "250ml", "multiplier": 1},
+              {"label": "500ml", "multiplier": 1.7}
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "res_momosutra",
+    "name": "Momo Sutra",
+    "description": "Steamed, pan-fried, and Tandoori momos with fusion sauces.",
+    "tags": ["Tibetan", "Quick Bites"],
+    "rating": 4.2,
+    "ratingCount": 638,
+    "etaMinutes": 18,
+    "distanceKm": 1.6,
+    "isPureVeg": false,
+    "image": "assets/images/banners/restaurant_momo.svg",
+    "priceLevel": 1,
+    "featured": false,
+    "menu": [
+      {
+        "category": "Steamed",
+        "items": [
+          {
+            "id": "item_veg_momo",
+            "name": "Classic Veg Momos",
+            "description": "Cabbage, carrot, spring onion filling.",
+            "isVeg": true,
+            "basePrice": 180,
+            "addons": [
+              {"name": "Thukpa Soup", "price": 70},
+              {"name": "Extra Chilli Dip", "price": 15}
+            ]
+          },
+          {
+            "id": "item_chicken_momo",
+            "name": "Ginger Chicken Momos",
+            "description": "Juicy filling with ginger & coriander.",
+            "isVeg": false,
+            "basePrice": 210
+          }
+        ]
+      },
+      {
+        "category": "Fried",
+        "items": [
+          {
+            "id": "item_afghani_momo",
+            "name": "Afghani Tandoori Momos",
+            "description": "Creamy marinade, charcoal roasted.",
+            "isVeg": false,
+            "basePrice": 260,
+            "spiceLevels": ["Classic", "Peri Peri"]
+          }
+        ]
+      }
+    ]
+  }
+]
+

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "prod_alphonso",
+    "name": "Alphonso Mango",
+    "categoryId": "gcat_fruits",
+    "description": "Premium Ratnagiri A-grade mangoes.",
+    "image": "assets/images/grocery/alphonso.svg",
+    "tags": ["Seasonal", "Sweet"],
+    "unitOptions": [
+      {"label": "1 kg", "price": 320},
+      {"label": "2 kg saver", "price": 610}
+    ],
+    "repeatCycle": ["Weekly"]
+  },
+  {
+    "id": "prod_broccoli",
+    "name": "Hydroponic Broccoli",
+    "categoryId": "gcat_veggies",
+    "description": "Crisp crowns harvested same day.",
+    "image": "assets/images/grocery/broccoli.svg",
+    "unitOptions": [
+      {"label": "500 g", "price": 110},
+      {"label": "1 kg", "price": 200}
+    ],
+    "repeatCycle": ["Bi-weekly", "Monthly"]
+  },
+  {
+    "id": "prod_dairy_pack",
+    "name": "Artisan Dairy Pack",
+    "categoryId": "gcat_dairy",
+    "description": "Milk, paneer, probiotic curd combo.",
+    "image": "assets/images/grocery/dairy_pack.svg",
+    "unitOptions": [
+      {"label": "Starter (2L)", "price": 260},
+      {"label": "Family (5L)", "price": 610}
+    ],
+    "repeatCycle": ["Daily", "Custom"]
+  },
+  {
+    "id": "prod_masala_combo",
+    "name": "Everyday Masala Combo",
+    "categoryId": "gcat_daily",
+    "description": "Turmeric, chilli, coriander, garam masala.",
+    "image": "assets/images/grocery/masala_combo.svg",
+    "unitOptions": [
+      {"label": "4 x 100 g", "price": 280},
+      {"label": "4 x 200 g", "price": 480}
+    ],
+    "repeatCycle": ["Monthly"]
+  }
+]
+
